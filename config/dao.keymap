@@ -23,13 +23,15 @@
 
         volume_up {
             bindings = <&kp F12>;
-            key-positions = <5 52>;
+            key-positions = <5>;
             layers = <0>;
+            slow-release;
         };
 
         volume_down {
             bindings = <&kp F11>;
-            key-positions = <4 52>;
+            key-positions = <4 38 38>;
+            slow-release;
         };
     };
 
