@@ -18,22 +18,7 @@
 &mt { quick_tap_ms = <200>; };
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        volume_up {
-            bindings = <&kp F12>;
-            key-positions = <5>;
-            layers = <0>;
-            slow-release;
-        };
-
-        volume_down {
-            bindings = <&kp F11>;
-            key-positions = <4 38 38>;
-            slow-release;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
